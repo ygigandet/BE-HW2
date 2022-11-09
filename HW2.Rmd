@@ -6,8 +6,13 @@ output: pdf_document
 
 **1-**
 
-a) First of all, as the mugs are randomly given to half of the subjects and the pens to the remaining half, the neoclassical economic model predict that half of the subjects will trade. It is based on the fact that the assignment is randomly made. Therefore, you get 50% chance to assign the right object to the right subject.
+a) First of all, as the mugs are randomly given to half of the subjects and the pens to the remaining half, the neoclassical economic model predicts that half of the subjects will trade. It is based on the fact that the assignment is randomly made. Therefore, you get 50% chance to assign the right object to the right subject.
 
-**Intriguing about the fact of giving plus 5 cents**
+** Intriguing about the fact of giving plus 5 cents**
 
-b) 
+b) The neoclassical economic model predicts that half of the subjects will trade. However, only 12% of those who originally received a mug and 10% of those who originally received a pen chose to exchange it for the other item plus 5 cents. It is due to the endowment effect which is explained by the reference-dependent preferences and loss aversion.
+
+Those who received the mugs randomly have their reference point shifted. Their reference point is now: owning the mug. As we have already seen, losses loom larger than gains. In this case, the non-utility of loosing the mug is bigger than the utility of gaining the pen plus 5 cents. The same applies to those who received the pens randomly but in this case, their reference point is now: owning the pen.
+
+In conclusion, reference-dependent preferences and loss aversion explain the experimental results (less trades occur).
+
