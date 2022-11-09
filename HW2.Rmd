@@ -208,10 +208,11 @@ Given the solutions above, the consumer will buy the shoes at price smaller than
 
 Just trying
 
-Make the assumption that the probability that the price p is smaller than $p_{min}$ is $q_{min}$.
+Make the assumption that the probability that the price p is smaller than $p_{min}$ is $q$.
 
-Hence, she expects to consume shoes and spend $p$ with probability $q_{min}$
+Hence, she expects to consume shoes and spend $p$ with probability $(1-q)$
 
 $$
-1 - p + q (\eta )
+1 - p + (1-q)(\eta-\eta\lambda p) - 
 $$
+**AUCUNE IDEE - je comprends le concept, mais j'arrive pas à le mettre en place...**
