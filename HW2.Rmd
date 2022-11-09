@@ -158,7 +158,11 @@ $$
 $$
 p < \frac{1 + \eta}{1 +\eta\lambda}
 $$
+Hence
 
+$$
+p < p_{min} \equiv\frac{1 + \eta}{1 +\eta\lambda}
+$$
 b)
 
 Now, the consumer never buys shoes for all prices p if:
@@ -191,4 +195,23 @@ $$
 
 $$
 p > \frac{1 + \eta\lambda}{1 + \eta}
+$$
+Hence
+
+$$
+p > p_{max} \equiv \frac{1 + \eta\lambda}{1 + \eta}
+$$
+
+c)
+
+Given the solutions above, the consumer will buy the shoes at price smaller than $p_{min}$ but not at price bigger than $p_{max}$. 
+
+Just trying
+
+Make the assumption that the probability that the price p is smaller than $p_{min}$ is $q_{min}$.
+
+Hence, she expects to consume shoes and spend $p$ with probability $q_{min}$
+
+$$
+1 - p + q (\eta )
 $$
