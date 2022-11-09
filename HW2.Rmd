@@ -6,7 +6,7 @@ output: pdf_document
 
 **1-**
 
-a) First of all, as the mugs are randomly given to half of the subjects and the pens to the remaining half, the neoclassical economic model predict that half of the subjects will trade. It is based on the fact that the assignment is randomly made. Therefore, you get 50% chance to assign the right object to the right subject (in other words the object that the subject wanted).
+a) First of all, as the mugs are randomly given to half of the subjects and the pens to the remaining half, the neoclassical economic model predict that half of the subjects will trade. It is based on the fact that the assignment is randomly made. Therefore, you get 50% chance to assign the right object to the right subject.
 
 **Intriguing about the fact of giving plus 5 cents**
 
