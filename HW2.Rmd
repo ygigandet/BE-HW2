@@ -135,7 +135,7 @@ $$
 \eta\lambda x\,  & , x \le 0  \end{cases}
 $$
 
-Therefore, the consumer buys shoes for all prices $p$ such that:
+Therefore, the consumer buys shoes for all prices $p$ if:
 
 $$
 u((1, -p)|(0, 0)) > u((0, 0)|(0, 0))
@@ -159,3 +159,36 @@ $$
 p < \frac{1 + \eta}{1 +\eta\lambda}
 $$
 
+b)
+
+Now, the consumer never buys shoes for all prices p if:
+
+$$
+u((1, -p)|(1, -p)) < u((0, 0)|(1, -p)))
+$$
+
+$$
+u((1, -p)|(1, -p)) = 1 - p
+$$
+
+$$
+u((0, 0)|(1, -p)) = -\eta\lambda + \eta p
+$$
+
+Therefore, by replacing the terms into the first inequation:
+
+$$
+u((1, -p)|(1, -p)) = 1 - p < -\eta\lambda + \eta p = u((0, 0)|(1, -p))
+$$
+
+$$
+1 - p + \eta\lambda - \eta p < 0
+$$
+
+$$
+1 + \eta\lambda < p(1 + \eta)
+$$
+
+$$
+p > \frac{1 + \eta\lambda}{1 + \eta}
+$$
