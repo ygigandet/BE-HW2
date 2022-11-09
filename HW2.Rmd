@@ -16,3 +16,6 @@ Those who received the mugs randomly have their reference point shifted. Their r
 
 In conclusion, reference-dependent preferences and loss aversion explain the experimental results (less trades occur).
 
+c) ** No idea how to prove it, think we need to use FOC **
+
+d) 
