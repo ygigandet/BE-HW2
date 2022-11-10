@@ -23,6 +23,11 @@ m(c) = utility derieved by consumption of goods
 n(c|r) = gain-loss utility
 
 In our case:
-$C = (4c1+4c2+c3$
+$$(4c1+4c2+c3)+(v(4c1-r1)+v(4c2-r2)+v(c3-r3))$$
+$$ v(x) = \begin{cases} x\space for\space x > 0 \\ 3x \space for\space x <0 \end{cases} $$
+
+Where:
+$C = (4c1+4c2+c3)$
 $n(c|r) = (v(4c1-r1)+v(4c2-r2)+v(c3-r3))$
+
 
