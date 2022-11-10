@@ -7,3 +7,22 @@ a)
 In the neoclassical economics theory the number of participant having received either a mug or a pen should have had the same proportion for the willingness to exchange. Another aspect is that under the neoclassical economics, individual are "rational" thereby they make decision based on maximization of their utility, thereby the percentage of individual choosing to exchange their goods should have far exceed what was found in this study due to the monetary increased added to the goods swap. 
 
 b)
+Rien à rajouter, ce que Yobby a mis me convient
+
+c)
+mugs  : Dimension 1 ; ouctome c1 ; reference r1
+pens  : Dimension 2 ; outcome c2 ; reference r2
+money : Dimension 3 ; outcome c3 ; reference r3
+
+Standard utility function (Koszegi and Rabin 2006): 
+
+$$u(c|r) = m(c) + n(c|r)$$
+Where:
+c = consumption of goods (can be k dimensional)
+m(c) = utility derieved by consumption of goods
+n(c|r) = gain-loss utility
+
+In our case:
+$C = (4c1+4c2+c3$
+$n(c|r) = (v(4c1-r1)+v(4c2-r2)+v(c3-r3))$
+
