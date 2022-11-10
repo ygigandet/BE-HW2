@@ -1,4 +1,8 @@
-
+---
+title: "Take-home - problem set 2"
+author: "Clarence Koehle & Yooby Gigandet"
+output: pdf_document
+---
 
 
 **1-**
@@ -7,27 +11,33 @@ a)
 In the neoclassical economics theory the number of participant having received either a mug or a pen should have had the same proportion for the willingness to exchange. Another aspect is that under the neoclassical economics, individual are "rational" thereby they make decision based on maximization of their utility, thereby the percentage of individual choosing to exchange their goods should have far exceed what was found in this study due to the monetary increased added to the goods swap. 
 
 b)
-Rien à rajouter, ce que Yobby a mis me convient
-
-c)
-mugs  : Dimension 1 ; ouctome c1 ; reference r1
-pens  : Dimension 2 ; outcome c2 ; reference r2
-money : Dimension 3 ; outcome c3 ; reference r3
-
 Standard utility function (Koszegi and Rabin 2006): 
 
 $$u(c|r) = m(c) + n(c|r)$$
 Where:
-c = consumption of goods (can be k dimensional)
-m(c) = utility derieved by consumption of goods
+c = consumption of goods (can be k dimensional);
+m(c) = utility derieved by consumption of goods;
 n(c|r) = gain-loss utility
 
 In our case:
 $$(4c1+4c2+c3)+(v(4c1-r1)+v(4c2-r2)+v(c3-r3))$$
 $$ v(x) = \begin{cases} x\space for\space x > 0 \\ 3x \space for\space x <0 \end{cases} $$
-
 Where:
-$C = (4c1+4c2+c3)$
+$C = (4c1+4c2+c3)$;
+$m(c,w) = (4c1+4c2+c3)+w $
 $n(c|r) = (v(4c1-r1)+v(4c2-r2)+v(c3-r3))$
 
+- mugs  : Dimension 1 ; ouctome c1 ; reference r1
+- pens  : Dimension 2 ; outcome c2 ; reference r2
+- money : Dimension 3 ; outcome c3 ; reference r3
 
+Let's imagine a situation where the agent owns a mug and do not expect to sell it, his reference point will be $(r1,r3) = (1,0)$,
+on the other hand in a situation for an agent who neither own nor wants to acquire a mugs while a reference point of $(r1,r3) = (0,0)$. We now can estimate at which compensation price $p^s$ our agent would be indifferent in between changing his mug or not.
+
+$$u(no\space swap|(1,0)) = mc1(1) + mc3(0) = 4(1)+0 = 4$$
+$$u(swap|(0,0) = mc1(0) + mc3(p^s) + v(mc1(0) - mc(1)) + v(mc3(p^s)-mc(0) \\ = 4(0) + p^s + 3[4(0)-4(1)]+p^s \\ = 2p^s -12$$
+$$u(no\space swap|(1,0)) =u(swap|(0,0) \\ 4 = -12 + 2p^s \\ p^s = 8$$
+Now lets take a look at an agent who does not own a mug nor does expect to acquire own.
+$$u(no\space swap|(0,0)) = mc1(0) + mc3(0) = 4(0) + 0 = 0$$
+$$u(swap|(0,0) = mc1(1) + mc3(-p^b + v(mc1(1) - mc1(0)) + v(mc3(-p^b)-mc3(0)\\ = 4(1)-p^b1+(4(1)-0)+3[-p^b-0] \\ = 8 - 4p^b \\ p^b = 4$$ 
+Because mugs and pens are equal in initial value: $4c1 = 4c2\space;c1 = c2$ We don't need to redo the experience with pens. In this situation we can see that the perceived value of the mug is 2 times higher for the agent owning, this situation is in coherence with the principle of loss aversion. Thereby we can conclude than the formulation provide does capture loss aversion in agents. However this situation is only the case if the initial reference point is "not expected to swap".
