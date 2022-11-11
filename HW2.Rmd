@@ -45,4 +45,18 @@ $$u(swap|(0,0) = mc1(1) + mc3(-p^b + v(mc1(1) - mc1(0)) + v(mc3(-p^b)-mc3(0)\\ =
 Because mugs and pens are equal in initial value: $4c1 = 4c2\space;c1 = c2$ We don't need to redo the experience with pens. In this situation we can see that the perceived value of the mug is 2 times higher for the agent owning, this situation is in coherence with the principle of loss aversion. Thereby we can conclude than the formulation provide does capture loss aversion in agents. However this situation is only the case if the initial reference point is "not expected to swap". 
 This models also capture diminishing sensitivity (the sensitivity decreased as value of the monetary gains increased). In the example above the monetary gains use was equal to 1 and the ration gain/loss was 2. With a the monetary compensation of 5 cents:
 $p^s = 160\space and\space p^b = 40$
-The increases in ratio is in coherence with diminishing sensititvy. 
+The increases in ratio is in coherence with diminishing sensitivity. 
+
+d) Yobby said enough
+e) Yobby said enough
+f) Yobby said enough
+
+
+
+**2-**
+
+a) Yobby said enough 
+b) Yobby said enough
+c)
+
+prove that pmin < p < pmax
