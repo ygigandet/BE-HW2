@@ -70,3 +70,5 @@ The expected demand is
 $$Q_{i(p^{*}) = Pr(s_{i} \geqq \space max_{j\neq\space i}S_{j})L}$$
 Then the profit is equal to 
 $$\pi(p^{*} = (p^{*}-c)Q_{i}(p^{*})$$
+This function can be  differentiate by pi and gives the marginal revenu equal to the marginal cost
+$$p_{i} = c_{i}-\frac{Q_{i}(p^{*})}{\partial Q_{i}/\partial p_{i}}$$
