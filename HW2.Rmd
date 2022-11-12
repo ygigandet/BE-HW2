@@ -60,3 +60,13 @@ b) Yobby said enough
 c)
 
 prove that pmin < p < pmax
+
+
+**3-**
+a)
+$$Pr(s_{i} \geqq max\space j \neq i\space  s_{j}) = \int\space \prod j\neq\space i[G(p_{j}-p_{i}+\theta_{i}]g(\theta_{i})d\theta_{i}$$
+b)
+The expected demand is 
+$$Q_{i(p^{*}) = Pr(s_{i} \geqq \space max_{j\neq\space i}S_{j})L}$$
+Then the profit is equal to 
+$$\pi(p^{*} = (p^{*}-c)Q_{i}(p^{*})$$
