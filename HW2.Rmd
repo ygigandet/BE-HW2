@@ -4,15 +4,24 @@ author: "Clarence Koehle & Yooby Gigandet"
 output: pdf_document
 ---
 
-
 **1-**
 
 a) 
-In the neoclassical economics theory the number of participant having received either a mug or a pen should have had the same proportion for the willingness to exchange. Another aspect is that under the neoclassical economics, individual are "rational" thereby they make decision based on maximization of their utility, thereby the percentage of individual choosing to exchange their goods should have far exceed what was found in this study due to the monetary increased added to the goods swap. 
 
-b) Yobby said enough
+First of all, as the mugs are randomly given to half of the subjects and the pens to the remaining half, the neoclassical economic model predicts that half of the subjects will trade. It is based on the fact that the assignment is randomly made. Therefore, you get 50% chance to assign the right object to the right subject. Another aspect is that under the neoclassical economics, individual are "rational" thereby they make decision based on maximization of their utility, thereby the percentage of individual choosing to exchange their goods should have far exceed what was found in this study due to the monetary increased added to the goods swap. 
 
-c)
+
+b) 
+
+The neoclassical economic model predicts that half of the subjects will trade. However, only 12% of those who originally received a mug and 10% of those who originally received a pen chose to exchange it for the other item plus 5 cents. It is due to the endowment effect which is explained by the reference-dependent preferences and loss aversion.
+
+Those who received the mugs randomly have their reference point shifted. Their reference point is now: owning the mug. As we have already seen, losses loom larger than gains. In this case, the non-utility of loosing the mug is bigger than the utility of gaining the pen plus 5 cents. The same applies to those who received the pens randomly but in this case, their reference point is now: owning the pen.
+
+In conclusion, reference-dependent preferences and loss aversion explain the experimental results (less trades occur).
+
+c) 
+
+**think we need to use FOC**
 Standard utility function (Koszegi and Rabin 2006): 
 
 $$u(c|r) = m(c) + n(c|r)$$
@@ -46,35 +55,317 @@ Because mugs and pens are equal in initial value: $4c1 = 4c2\space;c1 = c2$ We d
 This models also capture diminishing sensitivity (the sensitivity decreased as value of the monetary gains increased). In the example above the monetary gains use was equal to 1 and the ration gain/loss was 2. With a the monetary compensation of 5 cents:
 $p^s = 160\space and\space p^b = 40$
 The increases in ratio is in coherence with diminishing sensitivity. 
+ 
+ 
+d) 
 
-d) Yobby said enough
-e) Yobby said enough
-f) Yobby said enough
+The reference points are ($r_1$, $r_2$, $r_3$) = (1, 0, 0). 
 
+Her utility if she keeps the mug is given by:
+$$
+u((1,0,0)|(1,0,0)) = 4 * 1 + 4 * 0 + 0 + v(4 * 1 - 4 * 1) + v(4 * 0 - 4 * 0) + v(0 - 0) 
+$$
+$$
+u((1,0,0)|(1,0,0)) = 4
+$$
 
+Her utility if she exchange the mug for a pen plus $3
 
-**2-**
+$$
+u((0,1,3)|(1,0,0)) = 4 * 0 + 4 * 1 + 3 + v(4 * 0 - 4 * 1) + v(4 * 1 - 4 * 0) + v(3 - 0)
+$$
 
-a) Yobby said enough 
-b) Yobby said enough
+$$
+u((0,1,3)|(1,0,0)) = 4 + 3 - 12 + 4 + 3 = 2
+$$
+
+Therefore as
+
+$$
+u((1,0,0)|(1,0,0)) = 4 > 2 = u((0,1,3)|(1,0,0))
+$$
+
+an owner of mug will not exchange it for a pen plus $3.
+
+e)
+
+The reference points of a owner of pen are ($r_1$, $r_2$, $r_3$) = (0, 1, 0)
+
+Her utility if she keeps the pen is given by:
+
+$$
+u((0,1,0)|(0,1,0)) = 4 * 0 + 4 * 1 + 0 + v(4 * 0 - 4 * 0) + v(4 * 1 - 4 * 1) + v(0 - 0) 
+$$
+$$
+u((0,1,0)|(0,1,0)) = 4
+$$
+
+For her to exchange the pen for the mug and an amount of $x$ dollars, we must satisfy the following inequation:
+
+$$ 
+u((1,0,x)|(0,1,0)) > u((0,1,0)|(0,1,0))
+$$
+$$
+u((1,0,x)|(0,1,0)) = 4 * 1 + 4 * 0 + x + v(4 * 1 - 4 * 0) + v(4 * 0 - 4 * 1) + v(x-0)
+$$
+$$
+u((1,0,x)|(0,1,0)) = 4 + x + 4 - 12 + x = 2x - 4
+$$
+
+Putting this result in the previous equation, we obtain:
+
+$$ 
+u((1,0,x)|(0,1,0)) = 2x - 4 > 4 = u((0,1,0)|(0,1,0))
+$$
+
+$$
+2x > 8
+$$
+$$
+x > 4
+$$
+
+Hence, a pen owner must be paid more than $4 to agree to exchange it for a mug.
+
+f)
+
+**Two points of view:**
+
+**First**
+
+If she does not adjust her reference point in money to the situation, then we end up in the point discussed on d).
+
+**Second*
+
+If she does not adjust her reference point in money to the situation, her utility would be given by:
+
+$$
+u((1,0,-5)|(1,0,0)) = 4 * 1 + 4 * 0 - 5 + v(4 * 1 - 4 * 1) + v(4 * 0 - 4 * 0) + v(-5 - 0)
+$$
+$$
+u((1,0,-5)|(1,0,0)) = 4 - 5 - 5 = -6
+$$
+$$
+u((0,1,3)|(1,0,0)) = 4 * 0 + 4 * 1 + 3 + v(4 * 0 - 4 * 1) + v(4 * 1 - 4 * 0) + v(3 - 0)
+$$
+$$
+u((0,1,3)|(1,0,0)) = 4 + 3 - 12 + 4 + 3 = 2
+$$
+
+**Seems to weird for me: Because in one case we take into account the loss of $5 but not in the second case? What do you think?**
+
+2-
+
+a)
+
+As stated in the paper, the initial endowment is (0,0). In addition, the assumptions are:
+** 1. m(c) = $c_1$ + $c_2$
+** 2. $c_1$ {0, 1} indicates whether the consumer get a pair of shoes.
+** 3. $c_2$ = -p if the consumer pays price p.
+
+$$ 
+\mu(x) = \begin{cases}  \eta x\,  & ,x > 0 \\ 
+\eta\lambda x\,  & , x \le 0  \end{cases}
+$$
+
+Therefore, the consumer buys shoes for all prices $p$ if:
+
+$$
+u((1, -p)|(0, 0)) > u((0, 0)|(0, 0))
+$$
+
+$$
+u((1, -p)|(0, 0)) = 1 - p + \eta - \eta\lambda p > 0 = u((0,0)|(0,0))
+$$
+
+By resolving the equation we get:
+
+$$
+1 + \eta - p(1 + \eta\lambda) > 0
+$$
+
+$$
+1 + \eta > p(1 + \eta\lambda)
+$$
+
+$$
+p < \frac{1 + \eta}{1 +\eta\lambda}
+$$
+Hence
+
+$$
+p < p_{min} \equiv\frac{1 + \eta}{1 +\eta\lambda}
+$$
+b)
+
+Now, the consumer never buys shoes for all prices p if:
+
+$$
+u((1, -p)|(1, -p)) < u((0, 0)|(1, -p)))
+$$
+
+$$
+u((1, -p)|(1, -p)) = 1 - p
+$$
+
+$$
+u((0, 0)|(1, -p)) = -\eta\lambda + \eta p
+$$
+
+Therefore, by replacing the terms into the first inequation:
+
+$$
+u((1, -p)|(1, -p)) = 1 - p < -\eta\lambda + \eta p = u((0, 0)|(1, -p))
+$$
+
+$$
+1 - p + \eta\lambda - \eta p < 0
+$$
+
+$$
+1 + \eta\lambda < p(1 + \eta)
+$$
+
+$$
+p > \frac{1 + \eta\lambda}{1 + \eta}
+$$
+Hence
+
+$$
+p > p_{max} \equiv \frac{1 + \eta\lambda}{1 + \eta}
+$$
+
 c)
 
-prove that pmin < p < pmax
+Given the solutions above, the consumer will buy the shoes at price smaller than $p_{min}$ but not at price bigger than $p_{max}$. 
 
+Just trying
 
-**3-**
+Make the assumption that the probability that the price p is smaller than $p_{min}$ is $q$.
+
+Hence, she expects to consume shoes and spend $p$ with probability $(1-q)$
+
+$$
+1 - p + (1-q)(\eta-\eta\lambda p) - 
+$$
+**AUCUNE IDEE - je comprends le concept, mais j'arrive pas à le mettre en place...**
+
+3-
+
 a)
-$$Pr(s_{i} \geqq max\space j \neq i\space  s_{j}) = \int\space \prod j\neq\space i[G(p_{j}-p_{i}+\theta_{i}]g(\theta_{i})d\theta_{i}$$
+
+The probability that the consumer buys from firm i over firm j is given by
+
+$$
+Pr(s_i \ge s_j) = Pr[x_j - p_j - L(p_j, p^e) \le x_i - p_i - L(p_i, p^e) ]
+$$
+where L($p_i$, $p^e$) = max{0,$\lambda$ ($p_i$ - $p^e$)}, $\lambda$ > 0
+
+$$
+= Pr[x_j \le x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e)] = F(x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e))
+$$
+
+The proportion of consumers who buys from firm j is given by:
+
+$$
+Pr(s_i \ge max_{j \neq i} s_j) = \int\space \prod_{j \neq i} F[x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e)]f(x_i)dx_i
+$$
+
 b)
-The expected demand is 
-$$Q_{i(p^{*}) = Pr(s_{i} \geqq \space max_{j\neq\space i}S_{j})L}$$
-Then the profit is equal to 
-$$\pi(p^{*} = (p^{*}-c)Q_{i}(p^{*})$$
-This function can be  differentiate by pi and gives the marginal revenu equal to the marginal cost
-$$p_{i} = c_{i}-\frac{Q_{i}(p^{*})}{\partial Q_{i}/\partial p_{i}}$$
+
+Let the expected demand of firm $i$ be given by the proportion of consumers who prefer that brand times the number of consumers $L$:
+
+$$
+D_i(p_i, p_j) = Pr(s_i \ge max_{j \neq i} s_j)L
+$$
+
+The profit function of firm $i$ is given by:
+
+$$
+\pi_i(p_i, p_j) = (p_i - c_i) * D_i(p_i, p_j)
+$$
+
+The profit function of firm $i$ is differentiable with respect to $p_i$
+
+$$
+\frac{\delta pi_i(p_i, p_j)}{\delta p_i}: D_i(p_i, p_j) + (p_i - c_i) \frac{\delta D_i(p_i, p_j)}{\delta p_i} = 0
+$$
+
+$$
+p_i - c_i = - \frac{D_i(p_i, p_j)}{\frac{\delta D_i(p_i,p_j)}{\delta p_i}}
+$$
+
+c)
 
 
+$$
+D_i(p_i, p_j) = Pr(s_i \ge max_{j \neq i} s_j)L
+$$
 
+$$
+D_i(p_i, p_j) = L \int\space \prod_{j \neq i} F[x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e)]f(x_i)dx_i
+$$
+
+Assuming that there is no loss aversion (i.e. when $\lambda$ = 0)
+
+$$
+D_i(p_i, p_j) = L \int\space \prod_{j \neq i} F[x_i - (p_i - p_j)]f(x_i)dx_i
+$$
+
+$$
+D_i(p_i, p_j) = L \int\space F[x_i - (p_i - p_j)]f(x_i)dx_i
+$$
+
+Differentiating the last equation with respect to $p_i$ we have that:
+
+$$
+\frac{\delta D_i}{\delta p_i} = -L \int\space f(x_i - (p_i - p_j))f(x_i)dx_i
+$$
+
+Therefore:
+
+$$
+D_i(p_i, p_j) = L \int\space F[x_i - (p_i - p_j)]f(x_i)dx_i = L/n
+$$
+
+Thus the equilibrium mark-up is given by:
+
+$$
+p_i - c_i = - \frac{L/n}{-L \int\space f(x_i - (p_i - p_j))f(x_i)dx_i}
+$$
+
+$$
+p_i - c_i =  \frac{1}{n \int\space f(x_i - (p_i - p_j))f(x_i)dx_i} = \frac{1}{n*M(n)}
+$$
+
+where $M(n)$ = $\int\space f(x_i - (p_i - p_j))f(x_i)dx_i$
+
+**NOT WORKING**
+
+4-
+
+a)
+
+The demand is:
+
+$$
+D_i(p_i, p_{-i}) = \frac{e^\frac{q_i - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q_j - p_j}{\sigma}}
+$$
+The equilibrum price must satisfy the following condition:
+
+$$
+p^* = \arg \max_{p_{i}} (p_i - c)D_i(p_i,p_{-i}^*)
+$$
+Thus, replace $D_i(p_i,p_{-1}^*)$:
+
+$$
+p^* = \arg \max_{p_{i}} (p_i - c) \frac{e^\frac{q_i - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q_j - p_j}{\sigma}}
+$$
+As we assume that all the quantities are the same, $q$ and in a symmetric equilibrum every firm will choose the same price $p^*$, then:
+
+$$
+p^* = \arg \max_{p_{i}} (p_i - c) \frac{e^\frac{q - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q - p^*}{\sigma}}
+$$
 
 **5-**
 
@@ -87,3 +378,5 @@ In a situation where alpha is close to 1, we assume that the market is full of n
 
 e)
 In a situation where alpha is close to 0, a high quality firm will choose a simple product to offer as the client will rather chose such option than one w
+
+
