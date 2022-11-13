@@ -252,3 +252,19 @@ $$
 D_i(p_i, p_j) = Pr(s_i \ge max_{j \neq i} s_j)L
 $$
 
+The profit function of firm $i$ is given by:
+
+$$
+\pi_i(p_i, p_j) = (p_i - c_i) * D_i(p_i, p_j)
+$$
+
+The profit function of firm $i$ is differentiable with respect to $p_i$
+
+$$
+\frac{\delta pi_i(p_i, p_j)}{\delta p_i}: D_i(p_i, p_j) + (p_i - c_i) \frac{\delta D_i(p_i, p_j)}{\delta p_i} = 0
+$$
+
+$$
+p_i - c_i = - \frac{D_i(p_i, p_j)}{\frac{\delta D_i(p_i,p_j)}{\delta p_i}}
+$$
+
