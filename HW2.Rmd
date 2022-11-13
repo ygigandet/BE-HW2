@@ -238,12 +238,6 @@ $$
 Pr(s_i \ge max_{j \neq i} s_j) = \int\space \prod_{j \neq i} F[x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e)]f(x_i)dx_i
 $$
 
-Since $p_i$ = $p_j$ = $p^*$ = $p^e$
-
-$$
-Pr(s_i \ge max_{j \neq i} s_j) = \int\space \prod_{j \neq i} F[x_i]f(x_i)dx_i
-$$
-
 b)
 
 Let the expected demand of firm $i$ be given by the proportion of consumers who prefer that brand times the number of consumers $L$:
@@ -267,4 +261,6 @@ $$
 $$
 p_i - c_i = - \frac{D_i(p_i, p_j)}{\frac{\delta D_i(p_i,p_j)}{\delta p_i}}
 $$
+
+c)
 
