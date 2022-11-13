@@ -296,7 +296,7 @@ $$
 
 b)
 
-Let the expected demand of firm $i$ be given by the proportion of consumers who prefer that brand times the number of consumers $L$:
+Let the expected demand of firm $i$ be given by the proportion of consumers who prefer that firm times the number of consumers $L$:
 
 $$
 D_i(p_i, p_j) = Pr(s_i \ge max_{j \neq i} s_j)L
