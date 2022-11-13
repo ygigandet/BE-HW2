@@ -309,3 +309,28 @@ where $M(n)$ = $\int\space f(x_i - (p_i - p_j))f(x_i)dx_i$
 
 **NOT WORKING**
 
+4-
+
+a)
+
+The demand is:
+
+$$
+D_i(p_i, p_{-i}) = \frac{e^\frac{q_i - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q_j - p_j}{\sigma}}
+$$
+The equilibrum price must satisfy the following condition:
+
+$$
+p^* = \arg \max_{p_{i}} (p_i - c)D_i(p_i,p_{-i}^*)
+$$
+Thus, replace $D_i(p_i,p_{-1}^*)$:
+
+$$
+p^* = \arg \max_{p_{i}} (p_i - c) \frac{e^\frac{q_i - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q_j - p_j}{\sigma}}
+$$
+As we assume that all the quantities are the same, $q$ and in a symmetric equilibrum every firm will choose the same price $p^*$, then:
+
+$$
+p^* = \arg \max_{p_{i}} (p_i - c) \frac{e^\frac{q - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q - p^*}{\sigma}}
+$$
+
