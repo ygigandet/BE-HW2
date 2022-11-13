@@ -36,7 +36,7 @@ $n(c|r) = (v(4c1-r1)+v(4c2-r2)+v(c3-r3))$
 Let's imagine a situation where the agent owns a mug and do not expect to sell it, his reference point will be $(r1,r3) = (1,0)$,
 on the other hand in a situation for an agent who neither own nor wants to acquire a mugs while a reference point of $(r1,r3) = (0,0)$. We now can estimate at which compensation price $p^s$ our agent would be indifferent in between changing his mug or not.
 
-$$u(no\space swap|(1,0)) = mc1(1) + mc3(0) = 4(1)+0 = 4$$
+$$u((1,0,0)|(1,0,0)) = m = 4(1)+0 = 4$$
 $$u(swap|(1,0) = mc1(0) + mc3(p^s) + v(mc1(0) - mc(1)) + v(mc3(p^s)-mc(0) \\ = 4(0) + p^s + 3[4(0)-4(1)]+p^s \\ = 2p^s -12$$
 $$u(no\space swap|(1,0)) =u(swap|(1,0) \\ 4 = -12 + 2p^s \\ p^s = 8$$
 Now lets take a look at an agent who does not own a mug nor does expect to acquire own.
@@ -72,3 +72,18 @@ Then the profit is equal to
 $$\pi(p^{*} = (p^{*}-c)Q_{i}(p^{*})$$
 This function can be  differentiate by pi and gives the marginal revenu equal to the marginal cost
 $$p_{i} = c_{i}-\frac{Q_{i}(p^{*})}{\partial Q_{i}/\partial p_{i}}$$
+
+
+
+
+**5-**
+
+a)
+If the social cost for a firm is at 0, then it become socially efficent for the add-on to be consumed, however, 
+
+d)
+In a situation where alpha is close to 1, we assume that the market is full of naive consumer. In such sceneario, those consumers will not anticipate the shrouded market and thereby will not respond to a price cut. 
+
+
+e)
+In a situation where alpha is close to 0, a high quality firm will choose a simple product to offer as the client will rather chose such option than one w
