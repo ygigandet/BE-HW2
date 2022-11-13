@@ -216,3 +216,16 @@ $$
 1 - p + (1-q)(\eta-\eta\lambda p) - 
 $$
 **AUCUNE IDEE - je comprends le concept, mais j'arrive pas à le mettre en place...**
+
+3-
+
+a)
+
+The probability that the consumer buys from firm i over firm j is given by
+
+$$
+Pr(s_i \ge s_j) = Pr[x_j - p_j - L(p_j, p^e) \le x_i - p_i - L(p_i, p^e) ]
+$$
+where L($p_i$, $p^e$) = max{0,$\lambda$ ($p_i$ - $p^e$)}, $\lambda$ > 0
+
+
