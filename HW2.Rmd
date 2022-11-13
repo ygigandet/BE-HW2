@@ -318,8 +318,9 @@ $$
 p_i - c_i = - \frac{D_i(p_i, p_j)}{\frac{\delta D_i(p_i,p_j)}{\delta p_i}}
 $$
 
-c)
+**OLD**
 
+c)
 
 $$
 D_i(p_i, p_j) = Pr(s_i \ge max_{j \neq i} s_j)L
@@ -364,6 +365,10 @@ $$
 where $M(n)$ = $\int\space f(x_i - (p_i - p_j))f(x_i)dx_i$
 
 **NOT WORKING**
+
+**NEW**
+
+
 
 4-
 
