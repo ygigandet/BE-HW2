@@ -286,5 +286,26 @@ $$
 Differentiating the last equation with respect to $p_i$ we have that:
 
 $$
-\frac{\delta D_i}{\delta p_i} = 
+\frac{\delta D_i}{\delta p_i} = -L \int\space f(x_i - (p_i - p_j))f(x_i)dx_i
 $$
+
+Therefore:
+
+$$
+D_i(p_i, p_j) = L \int\space F[x_i - (p_i - p_j)]f(x_i)dx_i = L/n
+$$
+
+Thus the equilibrium mark-up is given by:
+
+$$
+p_i - c_i = - \frac{L/n}{-L \int\space f(x_i - (p_i - p_j))f(x_i)dx_i}
+$$
+
+$$
+p_i - c_i =  \frac{1}{n \int\space f(x_i - (p_i - p_j))f(x_i)dx_i} = \frac{1}{n*M(n)}
+$$
+
+where $M(n)$ = $\int\space f(x_i - (p_i - p_j))f(x_i)dx_i$
+
+**NOT WORKING**
+
