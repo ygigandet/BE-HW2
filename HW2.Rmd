@@ -237,18 +237,43 @@ $$
 
 c)
 
-Given the solutions above, the consumer will buy the shoes at price smaller than $p_{min}$ but not at price bigger than $p_{max}$. 
-
-Just trying
-
-Make the assumption that the probability that the price p is smaller than $p_{min}$ is $q$.
-
-Hence, she expects to consume shoes and spend $p$ with probability $(1-q)$
+Assume that if the consumer expects to buy with probability $q$ $\in$ [0,1] and $p_{min}$ < p < $p_{max}$ then the utility from buying is given by:
 
 $$
-1 - p + (1-q)(\eta-\eta\lambda p) - 
+u((1, -p)|(0, 0)) = 1 - p + (1-q)(\eta - \eta\lambda p) = 1 - p +(1 - q)\eta(1-\lambda p)
 $$
-**AUCUNE IDEE - je comprends le concept, mais j'arrive pas à le mettre en place...**
+
+And the utility from not buying is given by:
+
+$$
+q * u((0,0)|(1,-p)) = q *(-\eta\lambda + \eta p) = q\eta(p-\lambda)
+$$
+
+By equalizing the two equations above and isolating the q, we get:
+
+$$
+1 - p  + (1 - q)\eta(1-\lambda p) =  q\eta(p-\lambda)
+$$
+$$
+1 - p + \eta - \eta\lambda p - q\eta + q\eta\lambda p = q\eta p - q \eta\lambda
+$$
+
+$$
+q\eta\lambda p + q\eta\lambda - q\eta - q\eta p = \eta\lambda p - \eta + p -1
+$$
+
+$$
+q(\eta\lambda p + \eta\lambda)-q(\eta +\eta p) = p(1+\eta\lambda)-(1+\eta)
+$$
+$$
+q(\eta\lambda p + \eta\lambda-\eta -\eta p) = (1+\eta\lambda)p - (1 +\eta)
+$$
+$$
+q(\eta(\lambda-1)(p+1)) = (1+\eta\lambda)p - (1 +\eta)
+$$
+$$
+q = \frac{(1+\eta\lambda)p - (1 +\eta)}{\eta(\lambda-1)(p+1)}
+$$
 
 3-
 
