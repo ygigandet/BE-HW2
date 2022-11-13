@@ -237,3 +237,10 @@ Since the $x_j$ are uniformly distributed, the proportion of consumers who buys 
 $$
 Pr(s_i \ge max_{j \neq i} s_j) = \int\space \prod_{j \neq i} F[x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e)]f(x_i)dx_i
 $$
+
+Since $p_i$ = $p_j$ = $p^*$ = $p^e$
+
+$$
+Pr(s_i \ge max_{j \neq i} s_j) = \int\space \prod_{j \neq i} F[x_i]f(x_i)dx_i
+$$
+
