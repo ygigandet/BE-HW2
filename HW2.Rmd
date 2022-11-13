@@ -244,3 +244,11 @@ $$
 Pr(s_i \ge max_{j \neq i} s_j) = \int\space \prod_{j \neq i} F[x_i]f(x_i)dx_i
 $$
 
+b)
+
+Let the expected demand of firm $i$ be given by the proportion of consumers who prefer that brand times the number of consumers $L$:
+
+$$
+D_i(p_i, p_j) = Pr(s_i \ge max_{j \neq i} s_j)L
+$$
+
