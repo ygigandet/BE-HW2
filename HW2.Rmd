@@ -228,4 +228,12 @@ Pr(s_i \ge s_j) = Pr[x_j - p_j - L(p_j, p^e) \le x_i - p_i - L(p_i, p^e) ]
 $$
 where L($p_i$, $p^e$) = max{0,$\lambda$ ($p_i$ - $p^e$)}, $\lambda$ > 0
 
+$$
+= Pr[x_j \le x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e)] = F(x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e))
+$$
 
+Since the $x_j$ are uniformly distributed, the proportion of consumers who buys from firm j is given by:
+
+$$
+Pr(s_i \ge max_{j \neq i} s_j) = \int\space \prod_{j \neq i} F[x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e)]f(x_i)dx_i
+$$
