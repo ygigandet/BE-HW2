@@ -129,14 +129,6 @@ Hence, a pen owner must be paid more than $4 to agree to exchange it for a mug.
 
 f)
 
-**Two points of view:**
-
-**First**
-
-If she does not adjust her reference point in money to the situation, then we end up in the point discussed on d).
-
-**Second*
-
 If she does not adjust her reference point in money to the situation, her utility would be given by:
 
 $$
@@ -146,13 +138,19 @@ $$
 u((1,0,-5)|(1,0,0)) = 4 - 5 - 5 = -6
 $$
 $$
-u((0,1,3)|(1,0,0)) = 4 * 0 + 4 * 1 + 3 + v(4 * 0 - 4 * 1) + v(4 * 1 - 4 * 0) + v(3 - 0)
+u((0,1,-2)|(1,0,0)) = 4 * 0 + 4 * 1 - 2 + v(4 * 0 - 4 * 1) + v(4 * 1 - 4 * 0) + v(-2 - 0)
 $$
 $$
-u((0,1,3)|(1,0,0)) = 4 + 3 - 12 + 4 + 3 = 2
+u((0,1,-2)|(1,0,0)) = 4 - 2 - 12 + 4 -2 = -8
 $$
 
-**Seems to weird for me: Because in one case we take into account the loss of $5 but not in the second case? What do you think?**
+In conclusion, as
+
+$$
+u((0,1,-2)|(1,0,0)) = -8 < -6 = u((1,0,-5)|(1,0,0))
+$$
+
+she would not exchange her mug for a pen plus 3dollars. The intuition is because she does not adjust her reference point in money, such as (r1, r2, r3) = (1, 0, -5), the small amount of money 3dollars will still be felt like a loss compared to the reference point r3 = 0. On the opposite, if the reference point in money is adjusted, then the small amount of money 3 dollars will be felt like a gain. Therefore, the mug owner will experience still two losses he will not exchange. 
 
 2-
 
@@ -237,18 +235,43 @@ $$
 
 c)
 
-Given the solutions above, the consumer will buy the shoes at price smaller than $p_{min}$ but not at price bigger than $p_{max}$. 
-
-Just trying
-
-Make the assumption that the probability that the price p is smaller than $p_{min}$ is $q$.
-
-Hence, she expects to consume shoes and spend $p$ with probability $(1-q)$
+Assume that if the consumer expects to buy with probability $q$ $\in$ [0,1] and $p_{min}$ < p < $p_{max}$ then the utility from buying is given by:
 
 $$
-1 - p + (1-q)(\eta-\eta\lambda p) - 
+u((1, -p)|(0, 0)) = 1 - p + (1-q)(\eta - \eta\lambda p) = 1 - p +(1 - q)\eta(1-\lambda p)
 $$
-**AUCUNE IDEE - je comprends le concept, mais j'arrive pas à le mettre en place...**
+
+And the utility from not buying is given by:
+
+$$
+q * u((0,0)|(1,-p)) = q *(-\eta\lambda + \eta p) = q\eta(p-\lambda)
+$$
+
+By equalizing the two equations above and isolating the q, we get:
+
+$$
+1 - p  + (1 - q)\eta(1-\lambda p) =  q\eta(p-\lambda)
+$$
+$$
+1 - p + \eta - \eta\lambda p - q\eta + q\eta\lambda p = q\eta p - q \eta\lambda
+$$
+
+$$
+q\eta\lambda p + q\eta\lambda - q\eta - q\eta p = \eta\lambda p - \eta + p -1
+$$
+
+$$
+q(\eta\lambda p + \eta\lambda)-q(\eta +\eta p) = p(1+\eta\lambda)-(1+\eta)
+$$
+$$
+q(\eta\lambda p + \eta\lambda-\eta -\eta p) = (1+\eta\lambda)p - (1 +\eta)
+$$
+$$
+q(\eta(\lambda-1)(p+1)) = (1+\eta\lambda)p - (1 +\eta)
+$$
+$$
+q = \frac{(1+\eta\lambda)p - (1 +\eta)}{\eta(\lambda-1)(p+1)}
+$$
 
 3-
 
