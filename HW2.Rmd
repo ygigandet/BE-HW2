@@ -82,8 +82,8 @@ a)
 If the social cost for a firm is at 0, then it become socially efficent for the add-on to be consumed, however, 
 
 d)
-In a situation where alpha is close to 1, we assume that the market is full of naive consumer. In such sceneario, those consumers will not anticipate the shrouded market and thereby will not respond to a price cut. 
-
+In a situation where alpha is close to 1, we assume that the market is full of naive consumer. In such scenario, (Gabaix and Libson 2005), explains that a myope consumer will be unaware of add-on unless they are showed a listing price for it (ex. advertising). In such scenario, Those consumers will take all the steps needed to avoid paying for the company advertisign price. This situation will thus, diminish the company profits. Thereby, the best strategy would be to propose a lower based good price.
 
 e)
-In a situation where alpha is close to 0, a high quality firm will choose a simple product to offer as the client will rather chose such option than one w
+In a situation where alpha is close to 0, the population is full of sophisticated consumers.(Gabaix and Libson 2005), explains that in such scenario, a company that wishes to maximize its profit should propose a high quality product at a high biase price with a lower add-on price. 
+
