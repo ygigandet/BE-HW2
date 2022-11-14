@@ -311,7 +311,7 @@ $$
 The profit function of firm $i$ is differentiable with respect to $p_i$
 
 $$
-\frac{\delta pi_i(p_i, p_j)}{\delta p_i}: D_i(p_i, p_j) + (p_i - c_i) \frac{\delta D_i(p_i, p_j)}{\delta p_i} = 0
+\frac{\delta \pi_i(p_i, p_j)}{\delta p_i}: D_i(p_i, p_j) + (p_i - c_i) \frac{\delta D_i(p_i, p_j)}{\delta p_i} = 0
 $$
 
 $$
