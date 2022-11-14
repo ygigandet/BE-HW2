@@ -368,7 +368,31 @@ where $M(n)$ = $\int\space f(x_i - (p_i - p_j))f(x_i)dx_i$
 
 **NEW**
 
+$$
+D_i(p_i, p_j) = Pr(s_i \ge s_j)L
+$$
 
+$$
+D_i(p_i, p_j) = L \int\space F[x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e)]f(x_i)dx_i
+$$
+
+Assuming that there is no loss aversion (i.e. when $\lambda$ = 0)
+
+$$
+D_i(p_i, p_j) = L \int\space F[x_i - (p_i - p_j)]f(x_i)dx_i
+$$
+
+Differentiating the last equation with respect to $p_i$ we have that:
+
+$$
+\frac{\delta D_i}{\delta p_i} = - L \int\space f(x_i - (p_i - p_j))f(x_i)dx_i
+$$
+
+Substituting the equilibrium value $p_i$ = $p_j$ we obtain
+
+$$
+\frac{\delta D_i}{\delta p_i} = - L \int\space f(x_i)^2dx_i
+$$
 
 4-
 
