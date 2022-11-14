@@ -288,7 +288,7 @@ $$
 = Pr[x_j \le x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e)] = F(x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e))
 $$
 
-The proportion of consumers who buys from firm j is given by:
+The proportion of consumers who buys from firm i is given by:
 
 $$
 Pr(s_i \ge max_{j \neq i} s_j) = \int\space \prod_{j \neq i} F[x_i - (p_i - p_j) - L(p_i,p^e) + L(p_j,p^e)]f(x_i)dx_i
