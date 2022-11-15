@@ -374,21 +374,51 @@ The demand is:
 $$
 D_i(p_i, p_{-i}) = \frac{e^\frac{q_i - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q_j - p_j}{\sigma}}
 $$
-The equilibrum price must satisfy the following condition:
+The profit for firm i is given by:
 
 $$
-p^* = \arg \max_{p_{i}} (p_i - c)D_i(p_i,p_{-i}^*)
+\pi_i(p_i, p_{-i}) = (p_i - c)D_i(p_i,p_{-i})
 $$
-Thus, replace $D_i(p_i,p_{-1}^*)$:
+
+The equilibrium price must satisfy the following condition:
+
+$$
+p^* = \arg \max_{p_{i}} (p_i - c)D_i(p_i,p_{-i})
+$$
+
+Thus, replace $D_i(p_i^*,p_{-1})$:
 
 $$
 p^* = \arg \max_{p_{i}} (p_i - c) \frac{e^\frac{q_i - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q_j - p_j}{\sigma}}
 $$
-As we assume that all the quantities are the same, $q$ and in a symmetric equilibrum every firm will choose the same price $p^*$, then:
+As we assume that all the quantities are the same, $q$, thus:
 
 $$
-p^* = \arg \max_{p_{i}} (p_i - c) \frac{e^\frac{q - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q - p^*}{\sigma}}
+p^* = \arg \max_{p_{i}} (p_i - c) \frac{e^\frac{q - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q - p_j}{\sigma}}
 $$
+Now we assume that in a symmetric equilibrium every firm will choose the same price $p^*$
+
+$$
+p^* = \arg \max_{p^*} (p^* - c) \frac{e^\frac{q - p^*}{\sigma}}{n * e^\frac{q - p^*}{\sigma}}
+$$
+
+With the hint, maximizing the profit is the same as maximizing ln of the profit:
+
+$$
+p^* = (p^* - c) \frac{\frac{q - p^*}{\sigma}}{n *\frac{q - p^*}{\sigma}}
+$$
+$$
+p^* * (n *\frac{q - p^*}{\sigma}) = (p^* - c) \frac{q - p^*}{\sigma}
+$$
+
+$$
+\frac{q - p^*}{\sigma}(p^*n - p^* + c) = 0
+$$
+
+$$
+\frac{q - p^*}{\sigma}c + p^* \frac{q - p^*}{\sigma}(n - 1) = 0
+$$
+
 
 **5-**
 
