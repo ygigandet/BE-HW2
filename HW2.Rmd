@@ -46,11 +46,13 @@ Let's imagine a situation where the agent owns a mug and do not expect to sell i
 on the other hand in a situation for an agent who neither own nor wants to acquire a mugs while a reference point of $(r1,r3) = (0,0)$. We now can estimate at which compensation price $p^s$ our agent would be indifferent in between changing his mug or not.
 
 $$u((1,0,0)|(1,0,0)) = m(4_{1})+m(0_{2})+m(0_{3}) = 4$$
-$$u((1,0,1|(1,0,0) = m(0_{1}) + m(0_{2}) + m(p^s_{3}) + v(m(0_{1}) - m(1_{1})) + v(m(p^s_{3})-mc(0_{3}) \\ = 4(0) + p^s + 3[4(0)-4(1)]+p^s \\ = 2p^s -12$$
+$$u((1,0,1|(1,0,0) = m(0_{1}) + m(0_{2}) + m(p^s_{3}) + v(m(0_{1}) - m(1_{1})) + v(m(p^s_{3})-mc(0_{3})$$
+$$= 4(0) + p^s + 3[4(0)-4(1)]+p^s \\ = 2p^s -12$$
 $$u((1,0,0|(1,0,0)) =u((1,0,1|(1,0,0) \\ 4 = -12 + 2p^s \\ p^s = 8$$
 Now lets take a look at an agent who does not own a mug nor does expect to acquire own.
 $$u((0,1,0|(0,1,0)) = m(0_{1}) +m(1_{2}+ mc3(0) = 0 + 4 + 0 = 4$$
-$$u(1,0,1|(0,1,0) = m(1_{1}) + m(1_{3})(-p^b + v(mc1(1) - mc1(0)) + v(m(-p^b_{3})-m(0_{3})\\ = 4(1)-p^b1+(4(1)-0)+3[-p^b-0] \\ = 8 - 4p^b \\ p^b = 4$$ 
+$$u(1,0,1|(0,1,0) = m(1_{1}) + m(1_{3})(-p^b + v(mc1(1) - mc1(0)) + v(m(-p^b_{3})-m(0_{3})$$
+$$= 4(1)-p^b1+(4(1)-0)+3[-p^b-0] \\ = 8 - 4p^b \\ p^b = 4$$ 
 Because mugs and pens are equal in initial value: $4c1 = 4c2\space;c1 = c2$ We don't need to redo the experience with pens. In this situation we can see that the perceived value of the mug is 2 times higher for the agent owning, this situation is in coherence with the principle of loss aversion. Thereby we can conclude than the formulation provide does capture loss aversion in agents. However this situation is only the case if the initial reference point is "not expected to swap". 
 This models also capture diminishing sensitivity (the sensitivity decreased as value of the monetary gains increased). In the example above the monetary gains use was equal to 1 and the ration gain/loss was 2. With a the monetary compensation of 5 cents:
 $p^s = 160\space and\space p^b = 40$
@@ -408,7 +410,7 @@ Thus $$ln(D_i)' = ((p-p_i)/\sigma)/\sigma$$
 
 and if we take into account that $p_i = p_{-i} = p^{*}$, then $D_i = 1$
 Therefore 
-$$p^{*} - c = \frac{1}{\frac{(n-1)}{\sigma}}*\frac{p^{*}-p^{*}}{\sigma}/\sigma \\ ;p^{*} = \frac{1}{n-1}*\sigma$$
+$$p^{*} - c = \frac{1}{\frac{(n-1)}{\sigma}}*\frac{p^{*}-p^{*}}{\sigma}/\sigma \\ p^{*} = \frac{1}{n-1}*\sigma$$
 **5-**
 
 a)
@@ -424,18 +426,6 @@ if all firm choose the same level of complexity then
 $$\frac{\delta\pi}{\delta\sigma} = \frac{\sigma-\sigma^{2}}{\gamma}$$
 Therefore the optimal level of complexity cannot be 0 as:
 $$\frac{\delta\pi}{\delta\sigma} = \frac{\sigma-\sigma^{2}}{\gamma} = \sigma^{*} < 0$$
-
-b)
-(Perloff & Salop 1985), the expected profit are:
-$$\pi_i(p_1,...,p_n) = (p-c)D_i(p_1,...,p_n)\space where$$
-If we $D_i = 1 then, \pi = p-c$
-In our case :
-$$\pi = p - c(\sigma)$$
-if $p \le q$ then
-$$$$
-if $p \le q + c(\sigma)$ then
-$$$$
-if $p \le q - c(\sigma)$
 
 d)
 In a situation where alpha is close to 1, we assume that the market is full of naive consumer. In such scenario, (Gabaix and Libson 2005), explains that a myope consumer will be unaware of add-on unless they are showed a listing price for it (ex. advertising). In such scenario, Those consumers will take all the steps needed to avoid paying for the company advertising price. This situation will thus, diminish the company profits. Thereby, the best strategy would be to propose a lower based good price.
