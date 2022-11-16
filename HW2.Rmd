@@ -413,19 +413,32 @@ $$p^{*} - c = \frac{1}{\frac{(n-1)}{\sigma}}*\frac{p^{*}-p^{*}}{\sigma}/\sigma \
 
 a)
 In T = 0, the firm can set the price of the based good and of the the add-on (hidden complementary), in this scenario it can decided to shrouded the add-on price, in our case sigma. From this moment on, consumers naive (unaware of hidden fees), and sophisticated (aware of hidden fees), will each chose their strategy. An example of noise manipulation by a firm would be in the case of printer sales. With a low based price for the printer, if the company does not share the shrouded hidden price (in this case ink cartridges), and offer a discount on their based product, a naive consumer might jump on the occasion thinking that he made a great deal. However on the long run he will have to pay supplementary price higher than the initial price.
-If the social degree of complexity were to be equal to 0, this mean that the firm will be fully transparent over its based and add-on price. In the case of our printer sales, a naive consumer might decided to go to another firm with lower based price and higher(but avoidable) add-on.
+(Perloff & Salop 1985), the expected profit are:
+$$\pi_i(p_1,...,p_n) = (p-c)D_i(p_1,...,p_n)\space where$$
+Where p = price, c = cost, D_i = demand.
+in our case:
+$$\pi = p - c = p - c(\sigma) = \frac{1}{2\gamma}(\sigma-\sigma^{*})^2$$
+if we derivate in respect to $c(\sigma)$ we will find the optimal cost
+$$\frac{\delta\pi}{\delta\sigma} = \frac{\sigma-\sigma^{*2}}{\gamma}$$
+if all firm choose the same level of complexity then 
+$$\frac{\delta\pi}{\delta\sigma} = \frac{\sigma-\sigma^{2}}{\gamma}$$
+Therefore the optimal level of complexity cannot be 0 as:
+$$\frac{\delta\pi}{\delta\sigma} = \frac{\sigma-\sigma^{2}}{\gamma} = \sigma^{*} < 0$$
 
 b)
-The demand for firm i is:
-$$D_{i} = P(q_{i}-p_{i} + \varepsilon_{i} \ge \displaystyle \max_{j\neq i}q_{j} - p_{j}+\varepsilon_{j})$$
-if we imagine an price equilibrium such that
-$p_{j} = p^*, \forall j\neq i$
-Then the profit with a sophisticated consumer is:
-$$\pi = (p+\hat{p})D(-p+p^*)$$
-
+(Perloff & Salop 1985), the expected profit are:
+$$\pi_i(p_1,...,p_n) = (p-c)D_i(p_1,...,p_n)\space where$$
+If we $D_i = 1 then, \pi = p-c$
+In our case :
+$$\pi = p - c(\sigma)$$
+if $p \le q$ then
+$$$$
+if $p \le q + c(\sigma)$ then
+$$$$
+if $p \le q - c(\sigma)$
 
 d)
-In a situation where alpha is close to 1, we assume that the market is full of naive consumer. In such scenario, (Gabaix and Libson 2005), explains that a myope consumer will be unaware of add-on unless they are showed a listing price for it (ex. advertising). In such scenario, Those consumers will take all the steps needed to avoid paying for the company advertisign price. This situation will thus, diminish the company profits. Thereby, the best strategy would be to propose a lower based good price.
+In a situation where alpha is close to 1, we assume that the market is full of naive consumer. In such scenario, (Gabaix and Libson 2005), explains that a myope consumer will be unaware of add-on unless they are showed a listing price for it (ex. advertising). In such scenario, Those consumers will take all the steps needed to avoid paying for the company advertising price. This situation will thus, diminish the company profits. Thereby, the best strategy would be to propose a lower based good price.
 
 e)
 In a situation where alpha is close to 0, the population is full of sophisticated consumers.(Gabaix and Libson 2005), explains that in such scenario, a company that wishes to maximize its profit should propose a high quality product at a high based price with a lower add-on price.
