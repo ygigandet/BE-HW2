@@ -408,7 +408,7 @@ Thus $$ln(D_i)' = ((p-p_i)/\sigma)/\sigma$$
 
 and if we take into account that $p_i = p_{-i} = p^{*}$, then $D_i = 1$
 Therefore 
-$$p^{*} - c = \frac{1}{\frac{(n-1)}{\sigma}}*\frac{p^{*}-p^{*}}{\sigma}/\sigma \\ p^{*} = \frac{1}{n-1}*\sigma$$
+$$p^{*} - c = \frac{1}{\frac{(n-1)}{\sigma}}*\frac{p^{*}-p^{*}}{\sigma}/\sigma \\ ;p^{*} = \frac{1}{n-1}*\sigma$$
 **5-**
 
 a)
