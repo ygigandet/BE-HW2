@@ -44,19 +44,22 @@ $n(c|r) = v(4c_1-4r_1)+v(4c_2-4r_2)+v(c_3-r_3))$
 - pens  : Dimension 2; outcome $c_2$; reference $r_2$
 - money : Dimension 3; outcome $c_3$; reference $r_3$
 
-Let's imagine a situation where the agent owns a mug and do not expect to sell it, his reference point will be $(r_1, r_2, r_3) = (1,0,0)$. On the other hand in a situation for an agent who neither owns nor wants to acquire a mugs while a reference point of $(r_1, r_2, r_3) = (0, 0, 0)$. We now can estimate at which compensation price $p^s$ our agent would be indifferent between exchanging her mug or not.
+Let's imagine a situation where the agent owns a mug and do not expect to sell it, his reference point will be $(r_1, r_2, r_3) = (1,0,0)$. 
 
 $$
 u((1,0,0)|(1,0,0)) = m_{c_1}(4)+m_{c_2}(0)+m_{c_3}(0) = 4
 $$
+
+On the other hand, let's imagine an agent who neither owns nor wants to acquire a mugs with a reference points of $(r_1, r_2, r_3) = (0, 0, 0)$. We now can estimate at which compensation price $p^s$ our agent would be indifferent between exchanging her mug or not.
+
 $$
-u((0,0,p^s)|(1,0,0)) = m_{c_1}(0) + m_{c_2}(0) + m_{c_3}(p^s) + v_{r_1}(0 - 1) + v_{r_3}(p^s -0)
+u((0,0,p^s)|(1,0,0)) = m_{c_1}(0) + m_{c_2}(0) + m_{c_3}(p^s) + v_{r_1}(0 - 4*1) + v_{r_3}(p^s -0)
 $$
 $$
-u((0,0,1)|(1,0,0))  = p^s + 3[0 -4*1]+p^s \\ = 2p^s -12
+u((0,0,p^s)|(1,0,0))  = p^s + 3[0 - 4*1]+p^s \\ = 2p^s -12
 $$
 $$
-u((1,0,0)|(1,0,0)) =u((1,0,1)|(1,0,0)) \\ 4 = -12 + 2p^s \\ p^s = 8
+u((1,0,0)|(1,0,0)) = u((1,0,p^s)|(1,0,0)) \\ 4 = -12 + 2p^s \\ p^s = 8
 $$
 
 Now let's take a look at an agent who does not own a mug nor does expect to acquire one.
@@ -64,11 +67,12 @@ Now let's take a look at an agent who does not own a mug nor does expect to acqu
 $$
 u((0,1,0)|(0,1,0)) = m_{c_1}(0) +m_{c_2}(1)+ m_{c_3}(0) = 0 + 4 + 0 = 4
 $$
+
 $$
-u((1,0,1)|(0,1,0)) = m_{c_1}(1) + m_{c_2}(0) + m_{c_3}(1) + v_{r_1}(1 - 0) + v_{r_2}(0 - 1) + v_{r_3}(-p^b - 0)
+u((1,0,p^b)|(0,1,0)) = m_{c_1}(1) + m_{c_2}(0) + m_{c_3}(p^b) + v_{r_1}(4*1 - 0) + v_{r_3}(-p^b - 0)
 $$
 $$
-u((1,0,1)|(0,1,0)) = 4 * 1 - p^b + (1-0) + 3(0-1) + 3[-p^b-0] \\ = 2 - 4p^b \\ p^b = 1/2
+u((1,0,1)|(0,1,0)) = 4 * 1 - p^b + (4*1-0) + 3[-p^b-0] \\ = 8 - 4p^b \\ p^b = 2
 $$ 
 
 Because mugs and pens are equal in initial value: $4c1 = 4c2\space;c1 = c2$ We don't need to redo the experience with pens. In this situation we can see that the perceived value of the mug is 8 times higher for the agent owning, this situation is in coherence with the principle of loss aversion. Thereby we can conclude than the formulation provided does capture loss aversion in agents. However this situation is only the case if the initial reference point is "not expected to swap". 
