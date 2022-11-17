@@ -284,6 +284,7 @@ The probability that the consumer buys from firm i over firm j is given by
 $$
 Pr(s_i \ge s_j) = Pr[x_j - p_j - L(p_j, p^e) \le x_i - p_i - L(p_i, p^e) ]
 $$
+
 where L($p_i$, $p^e$) = max{0,$\lambda$ ($p_i$ - $p^e$)}, $\lambda$ > 0
 
 $$
@@ -298,7 +299,7 @@ $$
 
 **b)**
 
-Let the expected demand of firm $i$ be given by the proportion of consumers who prefer that brand times the number of consumers $L$:
+Let the expected demand of firm $i$ be given by the proportion of consumers who prefer that firm times the number of consumers $L$:
 
 $$
 D_i(p_i, p_j) = Pr(s_i \ge max_{j \neq i} s_j)L
