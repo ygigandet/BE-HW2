@@ -44,7 +44,7 @@ $n(c|r) = v(4c_1-4r_1)+v(4c_2-4r_2)+v(c_3-r_3))$
 Let's imagine a situation where the agent owns a mug and do not expect to sell it, his reference point will be $(r_1,r_2,r_3) = (1,0,0)$. On the other hand in a situation for an agent who neither owns nor wants to acquire a mugs while a reference point of $(r_1,r_2, r_3) = (0, 0, 0)$. We now can estimate at which compensation price $p^s$ our agent would be indifferent between exchanging her mug or not.
 
 $$u((1,0,0)|(1,0,0)) = m_{c_1}(4)+m_{c_2}(0)+m_{c_3}(0) = 4$$
-$$u((0,0,1)|(1,0,0)) = m_{c_1}(0) + m_{c_2}(0) + m_{c_3}(p^s) + v_{r_1}(0 - 1) + v_{r_3}(p^s -0)$$
+$$u((0,0,p^s)|(1,0,0)) = m_{c_1}(0) + m_{c_2}(0) + m_{c_3}(p^s) + v_{r_1}(0 - 1) + v_{r_3}(p^s -0)$$
 $$u((0,0,1)|(1,0,0))  = p^s + 3[0 -4*1]+p^s \\ = 2p^s -12$$
 $$u((1,0,0)|(1,0,0)) =u((1,0,1)|(1,0,0)) \\ 4 = -12 + 2p^s \\ p^s = 8$$
 Now let's take a look at an agent who does not own a mug nor does expect to acquire one.
@@ -62,7 +62,7 @@ The reference points are ($r_1$, $r_2$, $r_3$) = (1, 0, 0).
 
 Her utility if she keeps the mug is given by:
 $$
-u((1,0,0)|(1,0,0)) = 4 * 1 + 4 * 0 + 0 + v(4 * 1 - 4 * 1) + v(4 * 0 - 4 * 0) + v(0 - 0) 
+u((1,0,0)|(1,0,0)) = 4 * 1 + 4 * 0 + 0 + v_{r_1}(4 * 1 - 4 * 1) + v_{r_2}(4 * 0 - 4 * 0) + v_{r_3}(0 - 0) 
 $$
 $$
 u((1,0,0)|(1,0,0)) = 4
@@ -71,7 +71,7 @@ $$
 Her utility if she exchange the mug for a pen plus $3
 
 $$
-u((0,1,3)|(1,0,0)) = 4 * 0 + 4 * 1 + 3 + v(4 * 0 - 4 * 1) + v(4 * 1 - 4 * 0) + v(3 - 0)
+u((0,1,3)|(1,0,0)) = 4 * 0 + 4 * 1 + 3 + v_{r_1}(4 * 0 - 4 * 1) + v_{r_2}(4 * 1 - 4 * 0) + v_{r_3}(3 - 0)
 $$
 
 $$
@@ -86,14 +86,14 @@ $$
 
 an owner of mug will not exchange it for a pen plus $3.
 
-e)
+**e)**
 
 The reference points of a owner of pen are ($r_1$, $r_2$, $r_3$) = (0, 1, 0)
 
 Her utility if she keeps the pen is given by:
 
 $$
-u((0,1,0)|(0,1,0)) = 4 * 0 + 4 * 1 + 0 + v(4 * 0 - 4 * 0) + v(4 * 1 - 4 * 1) + v(0 - 0) 
+u((0,1,0)|(0,1,0)) = 4 * 0 + 4 * 1 + 0 + v_{r_1}(4 * 0 - 4 * 0) + v_{r_2}(4 * 1 - 4 * 1) + v_{r_3}(0 - 0) 
 $$
 $$
 u((0,1,0)|(0,1,0)) = 4
@@ -105,7 +105,7 @@ $$
 u((1,0,x)|(0,1,0)) > u((0,1,0)|(0,1,0))
 $$
 $$
-u((1,0,x)|(0,1,0)) = 4 * 1 + 4 * 0 + x + v(4 * 1 - 4 * 0) + v(4 * 0 - 4 * 1) + v(x-0)
+u((1,0,x)|(0,1,0)) = 4 * 1 + 4 * 0 + x + v_{r_1}(4 * 1 - 4 * 0) + v_{r_2}(4 * 0 - 4 * 1) + v_{r_3}(x-0)
 $$
 $$
 u((1,0,x)|(0,1,0)) = 4 + x + 4 - 12 + x = 2x - 4
@@ -126,18 +126,18 @@ $$
 
 Hence, a pen owner must be paid more than $4 to agree to exchange it for a mug.
 
-f)
+**f)**
 
 If she does not adjust her reference point in money to the situation, her utility would be given by:
 
 $$
-u((1,0,-5)|(1,0,0)) = 4 * 1 + 4 * 0 - 5 + v(4 * 1 - 4 * 1) + v(4 * 0 - 4 * 0) + v(-5 - 0)
+u((1,0,-5)|(1,0,0)) = 4 * 1 + 4 * 0 - 5 + v_{r_1}(4 * 1 - 4 * 1) + v_{r_2}(4 * 0 - 4 * 0) + v_{r_3}(-5 - 0)
 $$
 $$
 u((1,0,-5)|(1,0,0)) = 4 - 5 - 5 = -6
 $$
 $$
-u((0,1,-2)|(1,0,0)) = 4 * 0 + 4 * 1 - 2 + v(4 * 0 - 4 * 1) + v(4 * 1 - 4 * 0) + v(-2 - 0)
+u((0,1,-2)|(1,0,0)) = 4 * 0 + 4 * 1 - 2 + v_{r_1}(4 * 0 - 4 * 1) + v_{r_2}(4 * 1 - 4 * 0) + v_{r_3}(-2 - 0)
 $$
 $$
 u((0,1,-2)|(1,0,0)) = 4 - 2 - 12 + 4 -2 = -8
@@ -149,16 +149,16 @@ $$
 u((0,1,-2)|(1,0,0)) = -8 < -6 = u((1,0,-5)|(1,0,0))
 $$
 
-she would not exchange her mug for a pen plus 3dollars. The intuition is because she does not adjust her reference point in money, such as (r1, r2, r3) = (1, 0, -5), the small amount of money 3dollars will still be felt like a loss compared to the reference point r3 = 0. On the opposite, if the reference point in money is adjusted, then the small amount of money 3 dollars will be felt like a gain. Therefore, the mug owner will experience still two losses he will not exchange. 
+She would not exchange her mug for a pen plus 3 dollars. The intuition is because she does not adjust her reference point in money, such as $(r_1, r_2, r_3)$ = (1, 0, -5), the small amount of money 3 dollars will still be felt like a loss compared to the reference point $r_3$ = 0. On the opposite, if the reference point in money is adjusted, then the small amount of money 3 dollars will be felt like a gain. Therefore, the mug owner will experience still two losses and hence she will not exchange. 
 
-2-
+**2-**
 
-a)
+**a)**
 
-As stated in the paper, the initial endowment is (0,0). In addition, the assumptions are:
-** 1. m(c) = $c_1$ + $c_2$
-** 2. $c_1$ {0, 1} indicates whether the consumer get a pair of shoes.
-** 3. $c_2$ = -p if the consumer pays price p.
+As stated in the paper, the initial endowment is (0,0). In addition, the assumptions are:  
+** 1. m(c) = $c_1$ + $c_2$  
+** 2. $c_1$ {0, 1} indicates whether the consumer get a pair of shoes.  
+** 3. $c_2$ = -p if the consumer pays price p.  
 
 $$ 
 \mu(x) = \begin{cases}  \eta x\,  & ,x > 0 \\ 
