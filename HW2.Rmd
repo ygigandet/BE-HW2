@@ -370,29 +370,6 @@ where $M(n)$ = $\int\space f(x_i - (p_i - p_j))f(x_i)dx_i$
 
 **a)**
 
-The demand is:
-
-$$
-D_i(p_i, p_{-i}) = \frac{e^\frac{q_i - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q_j - p_j}{\sigma}}
-$$
-The equilibrum price must satisfy the following condition:
-
-$$
-p^* = \arg \max_{p_{i}} (p_i - c)D_i(p_i,p_{-i}^*)
-$$
-Thus, replace $D_i(p_i,p_{-1}^*)$:
-
-$$
-p^* = \arg \max_{p_{i}} (p_i - c) \frac{e^\frac{q_i - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q_j - p_j}{\sigma}}
-$$
-As we assume that all the quantities are the same, $q$ and in a symmetric equilibrum every firm will choose the same price $p^*$, then:
-
-$$
-p^* = \arg \max_{p_{i}} (p_i - c) \frac{e^\frac{q - p_i}{\sigma}}{\sum_{j = 1}^{n}e^\frac{q - p^*}{\sigma}}
-$$
-
-**a)**
-
 utility is $u_{i} = q_{i}-p_{i}+\varepsilon_{i}$
 Therefore the probability that a consumer chose brand i over j is 
 $$Pr(s_{i} \ge max_{j\ne i} s_{j}) =\int\space [\prod_{j\ne i}(\sigma^{-1}(p_{j}-p_{i})+\varepsilon_{i})]f(\varepsilon_{i})d\varepsilon_{i}$$
