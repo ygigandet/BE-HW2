@@ -370,8 +370,10 @@ where $M(n)$ = $\int\space f(x_i - (p_i - p_j))f(x_i)dx_i$
 
 **a)**
 
-utility is $u_{i} = q_{i}-p_{i}+\varepsilon_{i}$
+The utility is given by: $u_{i} = q_{i}-p_{i}+\sigma\epsilon_{i}$
+
 Therefore the probability that a consumer chose brand i over j is 
+
 $$Pr(s_{i} \ge max_{j\ne i} s_{j}) =\int\space [\prod_{j\ne i}(\sigma^{-1}(p_{j}-p_{i})+\varepsilon_{i})]f(\varepsilon_{i})d\varepsilon_{i}$$
 Thus the expected demand is 
 $$D_{i}(p_{1},...,p_{n}) = Pr(s_{i} \ge max_{j\ne i} s_{j})$$
@@ -396,7 +398,7 @@ $$p^{*} - c = \frac{1}{\frac{(n-1)}{\sigma}}*\frac{p^{*}-p^{*}}{\sigma}/\sigma \
 In T = 0, the firm can set the price of the based good and of the the add-on (hidden complementary), in this scenario it can decided to shrouded the add-on price, in our case sigma. From this moment on, consumers naive (unaware of hidden fees), and sophisticated (aware of hidden fees), will each chose their strategy. An example of noise manipulation by a firm would be in the case of printer sales. With a low based price for the printer, if the company does not share the shrouded hidden price (in this case ink cartridges), and offer a discount on their based product, a naive consumer might jump on the occasion thinking that he made a great deal. However on the long run he will have to pay supplementary price higher than the initial price.
 
 (Perloff & Salop 1985), the expected profit are:
-$$\pi_i(p_1,...,p_n) = (p-c)D_i(p_1,...,p_n)\space where$$
+$$\pi_i(p_1,...,p_n) = (p-c)D_i(p_1,...,p_n)$$
 Where p = price, c = cost, $D_i$ = demand.
 
 in our case:  
