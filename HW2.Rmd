@@ -395,9 +395,10 @@ $$p^{*} - c = \frac{1}{\frac{(n-1)}{\sigma}}*\frac{p^{*}-p^{*}}{\sigma}/\sigma \
 
 **a)**
 
-In T = 0, the firm can set the price of the based good and of the the add-on (hidden complementary), in this scenario it can decided to shrouded the add-on price, in our case sigma. From this moment on, consumers naive (unaware of hidden fees), and sophisticated (aware of hidden fees), will each chose their strategy. An example of noise manipulation by a firm would be in the case of printer sales. With a low based price for the printer, if the company does not share the shrouded hidden price (in this case ink cartridges), and offer a discount on their based product, a naive consumer might jump on the occasion thinking that he made a great deal. However on the long run he will have to pay supplementary price higher than the initial price.
+In T = 0, the firm can set the price of the based good and of the add-on (hidden complementary), in this scenario it can decide to shroud the add-on price, sigma. From this moment on, naive consumers (unaware of hidden fees), and sophisticated (aware of hidden fees), will each chose their strategy. An example of noise manipulation by a firm would be in the case of printer sales. With a low based price for the printer, if the company does not share the shrouded hidden price (in this case ink cartridges), and offer a discount on their based product, a naive consumer might jump on the occasion thinking that he made a great deal. However on the long run he will have to pay additional price which are higher than for a premium printer.
 
 (Perloff & Salop 1985), the expected profit are:
+
 $$\pi_i(p_1,...,p_n) = (p-c)D_i(p_1,...,p_n)$$
 Where p = price, c = cost, $D_i$ = demand.
 
